@@ -5,3 +5,5 @@ sshagent([credId]) {
             ssh ${tomcatUser}r@${tomcatId} /opt/tomcat8/bin/shutdown.sh
             ssh ${tomcatUser}${tomcatId} /opt/tomcat8/bin/startup.sh
             """
+      }
+}
